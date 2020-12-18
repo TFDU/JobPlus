@@ -10,6 +10,8 @@ import java.io.PrintWriter;
 import org.json.JSONObject;
 import org.json.JSONArray;
 
+import external.GitHubClient;
+
 
 @WebServlet(name = "SearchItem", urlPatterns = {"/search"})
 public class SearchItem extends HttpServlet {
@@ -18,11 +20,10 @@ public class SearchItem extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        double lat = Double.parseDouble(request.getParameter("lat"));
+        double lon = Double.parseDouble(request.getParameter("lon"));
 
-
-        JSONArray array = new JSONArray();
-        array.put(new JSONObject().put("username", "abcd"));
-        array.put(new JSONObject().put("username", "1234"));
-        RpcHelper.writeJsonArray(response, array);
+        GitHubClient client = new GitHubClient();
+        RpcHelper.writeJsonArray(response, client.search(lat, lon, null));
     }
 }
