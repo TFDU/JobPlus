@@ -9,4 +9,8 @@ This is the log in development process
 * GitHub job related API
 ### V0.0.3
 * GitHub job related API update
+### V0.0.4
+* Keyword Extractor
+
+
 
