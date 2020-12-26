@@ -11,6 +11,8 @@ This is the log in development process
 * GitHub job related API update
 ### V0.0.4
 * Keyword Extractor
+### V0.0.5
+* RDS MySQL Connection
 
 
 
