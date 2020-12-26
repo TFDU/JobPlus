@@ -13,6 +13,8 @@ This is the log in development process
 * Keyword Extractor
 ### V0.0.5
 * RDS MySQL Connection
+### V0.0.6
+* RDS MySQL Connection Update
 
 
 
