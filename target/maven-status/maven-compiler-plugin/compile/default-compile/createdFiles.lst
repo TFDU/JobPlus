@@ -1,3 +1,4 @@
 entity\Item$1.class
 entity\Item$ItemBuilder.class
 entity\Item.class
+db\MySQLConnection.class
