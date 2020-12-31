@@ -15,6 +15,9 @@ This is the log in development process
 * RDS MySQL Connection
 ### V0.0.6
 * RDS MySQL Connection Update
+### V0.0.7
+* Authentication
+* HttpSession & Login & Logout & Register
 
 
 
