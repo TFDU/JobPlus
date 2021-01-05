@@ -18,6 +18,8 @@ This is the log in development process
 ### V0.0.7
 * Authentication
 * HttpSession & Login & Logout & Register
-
+### V0.0.8
+* Recommendation
+* Webapp
 
 
