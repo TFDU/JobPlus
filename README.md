@@ -1,7 +1,7 @@
 # JobPlus
 An AWS based job recommendation engine
 ## Demo
-![image](https://github.com/TFDU/TwitchPlus/blob/main/demo/TwitchPlus.gif)
+![image](https://github.com/TFDU/JobPlus/blob/main/demo/JobPlus.gif)
 ## Developer Log
 This is the log in development process
 ### V0.0.1
